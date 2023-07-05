@@ -1,13 +1,13 @@
 package main
 
 import (
-	"fmt"
 	"app/ex"
+	"fmt"
 )
 
 
 
 func main()  {
-	con, _ := ex.CollatzConjecture(12)
-	fmt.Println(con)
+	cost := ex.CalculateCost(21)
+	fmt.Println(cost)
 }
