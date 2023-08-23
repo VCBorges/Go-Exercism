@@ -8,6 +8,11 @@ import (
 
 
 func main()  {
-	cost := ex.CalculateCost(21)
-	fmt.Println(cost)
+	fmt.Println(ex.AssignTable(
+		"Xuân Jing",
+		4,
+		"Renée",
+		"by the façade",
+		23.470103,
+	))
 }
