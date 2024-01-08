@@ -8,11 +8,9 @@ import (
 
 
 func main()  {
-	fmt.Println(ex.AssignTable(
-		"Xuân Jing",
-		4,
-		"Renée",
-		"by the façade",
-		23.470103,
-	))
+	distance, err := ex.Distance("GGACGGATTCTG", "AGGACGGATTCT")
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(distance)
 }
