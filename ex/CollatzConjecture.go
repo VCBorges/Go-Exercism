@@ -4,10 +4,6 @@ import (
 	"fmt"
 )
 
-// type teste struct{
-// 	name string
-// }
-// dssfds
 func CollatzConjecture(n int) (int, error) {
 
 	if n <= 0 {
